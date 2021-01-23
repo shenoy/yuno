@@ -42,7 +42,7 @@ class Calculator extends React.Component {
               onChange={this.handleChange}
             />
             <button type="input" value="Submit">
-              Submit
+              Calculate
             </button>
           </form>
         </div>
