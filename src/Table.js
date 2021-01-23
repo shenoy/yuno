@@ -3,9 +3,6 @@ import PropertyRow from "./PropertyRow";
 import Calculator from "./Calculator";
 
 class Table extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="table">
