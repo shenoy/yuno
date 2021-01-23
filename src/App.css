@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.propertyRow {
+  display: flex;
+  margin-left: 95px;
+}
+
+.tableHeader {
+  display: flex;
+  margin-left: 95px;
+  font-weight: bold;
+}
+.calculator {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.checkRow {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow: scroll;
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.title,
+h1 {
+  font-weight: bold;
+  text-shadow: 2px 2px 4px lightgrey;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.tableWrapper {
+  margin-top: 50px;
+}
+
+.box {
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1px solid lightgray;
+  width: 19%;
+}
+
+.box2 {
+  padding: 1rem 1rem 1rem 1rem;
+  width: 400px;
+}
+
+.table {
+  margin-left: 20%;
+  margin-top: 100px;
+  padding: 10px;
+  width: 60%;
+  height: 700px;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 1px rgb(204, 201, 201);
+  box-shadow: 2px 2px 4px lightgrey;
+}
+
+.table-header {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  width: 30%;
+}
+
+input {
+  margin-left: auto;
+  height: 25px;
+  width: 50%;
+}
+
+button {
+  margin-left: 20px;
+  height: 30px;
+  width: 100px;
+}
+
+form {
+  display: flex;
+}
